@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #00BA9F;
+  --secondary: #20E3CA;
+  --background: #F0F7F4;
+  --text: #2D3748;
+  --accent: #DCFFF9;
+}
+
+body {
+  background-color: var(--background);
+}
+
+.neubrutalism-button {
+  @apply border-4 border-black rounded-lg shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] 
+         hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] 
+         hover:translate-x-[-2px] hover:translate-y-[-2px] 
+         transition-all duration-200;
+}
+
+.neubrutalism-card {
+  @apply border-4 border-black rounded-xl shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]
+         bg-[#F0F7F4] p-8;
+}
