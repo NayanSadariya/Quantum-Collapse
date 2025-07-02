@@ -2,10 +2,6 @@
 <h3 align="center">A Fast-Paced Object Collision Game with Audio & Level Dynamics</h3>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="450" />
-</p>
-
-<p align="center">
   <a href="https://github.com/NayanSadariya/Quantum-Collapse">
     <img src="https://img.shields.io/badge/Source Code-000000?style=for-the-badge&logo=github&logoColor=white" />
   </a>
